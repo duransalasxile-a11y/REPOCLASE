@@ -3,14 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Edgardo</title>
+    <title>Pasión por el Fútbol</title>
 </head>
 <body>
-    <h1>¡Hola! Soy Edgardo</h1>
-    <p>Esta es mi página individual para la actividad grupal de Git y GitHub.</p>
-    <p>Estamos aprendiendo a trabajar en equipo con control de versiones.</p>
+
     
-    <br>
-    <a href="index.html">Volver a la página principal del grupo</a>
+    <header>
+        <h1>Pasión por el Fútbol ⚽</h1>
+        <p>El deporte más popular del mundo, que une a personas de todas las edades, culturas y países.</p>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#sobre-el-futbol">Sobre el fútbol</a></li>
+            <li><a href="#datos-y-curiosidades">Datos y curiosidades</a></li>
+            <li><a href="#contacto">Tu opinión</a></li>
+        </ul>
+    </nav>
+
+    
+    <main>
+
+
+        
+        
+        <section id="sobre-el-futbol">
+            <h2>¿Qué es el fútbol y por qué me apasiona?</h2>
+            
+            <p>El fútbol es un deporte que se juega entre dos equipos de once jugadores cada uno, utilizando principalmente los pies para mover el balón y meterlo en la portería contraria. Se disputa en una cancha rectangular con metas en cada extremo. Es <strong>el deporte más practicado y seguido del planeta</strong>, con millones de aficionados que lo viven con gran emoción.</p>
+            
+            <p>Me interesa profundamente porque va más allá de un simple juego: enseña valores como el trabajo en equipo, la disciplina, el respeto y la perseverancia. Cada partido es diferente, y <em>la emoción de un gol o una jugada brillante</em> puede unir a familias, amigos y comunidades enteras en un mismo sentimiento.</p>
+            
+            <p>Además, el fútbol tiene una capacidad única para transformar sociedades, generar alegría y crear historias inolvidables que perduran en la memoria de las personas mucho después de que termina el encuentro.</p>
+        </section>
+
+
+        
+        <section id="datos-y-curiosidades">
+            <h2>Datos y curiosidades del fútbol</h2>
+
+            
+            <h3>Equipos con más títulos del mundo</h3>
+            <ol>
+                <li>Al Ahly (Egipto) — más de 120 títulos oficiales</li>
+                <li>Peñarol (Uruguay) — aproximadamente 110 títulos</li>
+                <li>Real Madrid (España) — más de 100 títulos reconocidos</li>
+                <li>Club Nacional de Football (Uruguay)</li>
+                <li>FC Barcelona (España)</li>
+            </ol>
+
+            <h3>Elementos esenciales del juego</h3>
+            <ul>
+                <li>Balón de fútbol</li>
+                <li>Dos porterías</li>
+                <li>Terreno de juego delimitado</li>
+                <li>Árbitro principal y árbitros asistentes</li>
+                <li>Dos equipos con uniformes diferenciados</li>
+            </ul>
+
+
+
+            <h3>Estadísticas destacadas</h3>
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Competición</th>
+                    <th>País con más títulos</th>
+                    <th>Primera edición</th>
+                </tr>
+                <tr>
+                    <td>Copa Mundial FIFA</td>
+                    <td>Brasil (5 títulos)</td>
+                    <td>1930</td>
+                </tr>
+                <tr>
+                    <td>Copa América</td>
+                    <td>Uruguay (15 títulos)</td>
+                    <td>1916</td>
+                </tr>
+                <tr>
+                    <td>UEFA Champions League</td>
+                    <td>Real Madrid (15 títulos)</td>
+                    <td>1955-56</td>
+                </tr>
+            </table>
+
+
+            <h3>Imagen representativa</h3>
+            <img src="futbol-campo.jpg" alt="Cancha de fútbol con balón en el centro y gradas llenas de aficionados" width="500">
+            <p><em>Imagen ilustrativa: un campo de fútbol listo para el partido, final del mundial 2026 España vs Argentina.</em></p>
+
+
+
+            <h3>Video: La magia del fútbol</h3>
+            <video controls width="500">
+                <source src="magia-futbol.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+
+
+            <p>Si quieres saber más sobre la historia del fútbol, visita la 
+               <a href="https://es.wikipedia.org/wiki/F%C3%BAtbol" target="_blank">página de Wikipedia dedicada al fútbol</a>.
+            </p>
+        </section>
+
+        
+        <section id="contacto">
+            <h2>Comparte tu pasión por el fútbol</h2>
+            <p>¿Tienes algún equipo favorito o un recuerdo especial relacionado con este deporte? ¡Cuéntanos!</p>
+
+            <form action="#" method="post">
+                <label for="nombre">Tu nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Tu correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="comentario">Tu equipo favorito o recuerdo del fútbol:</label><br>
+                <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe aquí lo que más te gusta del fútbol..."></textarea><br><br>
+
+                <input type="submit" value="Enviar mi opinión">
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <hr>
+        <p><strong>Estudiante:</strong> Edgardo Hernandez Gomez</p>
+        <p><strong>Programa:</strong>Licenciatura en Matematicas</p>
+        <p>página web con HTML semántico</p>
+    </footer>
+
 </body>
 </html>
